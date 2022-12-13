@@ -1,0 +1,46 @@
+1. Write a Python program to print the following string in a specific format (see the output)?
+Sample String : "Twinkle, twinkle, little star, How I wonder what you are! Up above the world so high, Like a diamond in the sky. Twinkle, twinkle, little star, How I wonder what you are" Output :
+
+Twinkle, twinkle, little star,
+	How I wonder what you are! 
+		Up above the world so high,   		
+		Like a diamond in the sky. 
+Twinkle, twinkle, little star, 
+	How I wonder what you are
+A)a=("Twinkle, twinkle, little star,\n\t How I wonder what you are!\n\t Up above the world so high,\n\t Like a diamond in the sky")
+print(a)
+4. Write a Python program which accepts the radius of a circle from the user and compute the area?
+Sample Output :
+r = 1.1
+Area = 3.8013271108436504
+
+from math import pi
+x=float(input("Enter your radius:"))
+print("The area of circle:"+str(pi*x**2))
+6. Write a Python program which accepts a sequence of comma-separated numbers from user and generate a list and a tuple with those numbers?
+Sample data : 3, 5, 7, 23
+Output :
+List : ['3', ' 5', ' 7', ' 23']
+Tuple : ('3', ' 5', ' 7', ' 23')
+A)list=input("enter your number:")
+values=list.split(",")
+tuple=tuple(values)
+print('list:',list)
+print('tuple:',tuple)
+14. Write a Python program to calculate number of days between two dates.
+Sample dates : (2014, 7, 2), (2014, 7, 11)
+Expected output : 9 days
+A)from datetime import date
+a=date(2014, 7, 2)
+b=date(2014,7,11)
+c=(b-a)
+print(c)
+22. Write a Python program to count the number 4 in a given list?
+A)for example:
+a=[1,2,3,3,4,2,1]
+a.count(4)
+print(a.count(4))
+
+
+
+
